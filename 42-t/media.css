@@ -1,0 +1,622 @@
+@media (min-width:1200px) and (max-width:1900px){
+	.nav_panel i{
+		display: none;
+	}
+	.manu2{
+		display: none;
+	}
+	.main_4{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 165vh;
+		position: relative;
+		top: 120px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.cube2{
+		bottom: 65px;
+	}
+	.cube1{
+	/*	border: 1px solid white;*/
+		width: 90%;
+		height: 93vh;
+		position: absolute;
+		left: 70px;
+		background: url(mani_4.jpeg);
+		background-size: 100% 100%;
+	}
+	.cube3{
+/*		border: 1px solid red;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 65px;
+		left: 520px;
+		color: white;
+	}
+	.cube4{
+/*		border: 1px solid white;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 65px;
+		right: 75px;
+		color: white;
+	}
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){
+	.nav_panel{
+		font-size: 16px;
+	}
+	.nav_panel i{
+		display: none;
+	}
+	.manu2{
+		display: none;
+	}
+	.main_3{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 550px;
+		position: relative;
+		top: 30px;
+	}
+	.box1{
+	/*	border: 1px solid white;*/
+		width: 55%;
+		height: 330px;
+		position: absolute;
+		top: 100px;
+		left: 25px;
+		background: url(main_3_ph1.jpeg);
+		background-size: 100% 100%;
+	}
+	.box2{
+	/*	border: 1px solid blueviolet;*/
+		width: 400px;
+		height: 250px;
+		position: absolute;
+		right: 25px;
+		background: url(main_3_ph2.jpeg);
+		background-size: 100% 100%;
+		top: 10px;
+	}
+	.box3{
+	/*	border: 1px solid red;*/
+		width: 400px;
+		height: 250px;
+		position: absolute;
+		bottom: 10px;
+		right: 25px;
+		background: url(main_3_ph3.jpeg);
+		background-size: 100% 100%;
+	}
+	.main_4{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 168vh;
+		position: relative;
+		top: 120px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.cube1{
+	/*	border: 1px solid white;*/
+		width: 90%;
+		height: 93vh;
+		position: absolute;
+		left: 50px;
+		background: url(mani_4.jpeg);
+		background-size: 100% 100%;
+	}
+	.cube2{
+/*		border: 1px solid white;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 0px;
+		left: 50px;
+		color: white;
+	}
+	.cube3{
+/*		border: 1px solid red;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 0px;
+		left: 380px;
+		color: white;
+	}
+	.cube4{
+/*		border: 1px solid white;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 0px;
+		right: 50px;
+		color: white;
+	}
+	.main_5_text{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 250px;
+		position: relative;
+		top: 150px;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		padding: 0 50px;
+	}
+	.cube1_1{
+	/*	border: 1px solid white;*/
+		width: 90%;
+		height: 93vh;
+		position: absolute;
+		left: 50px;
+		background: url(salon1.jpeg);
+		background-size: 100% 100%;
+	}
+	.end_div{
+		position: relative;
+		top: 150px;
+	}
+	.end_icon{
+	/*	 border: 1px solid;*/
+		width: 100%;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: gray;
+	}
+	.nav_bar2{
+	/*	border: 1px solid;*/
+		width: 75%;
+		height: 330px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.nav_panel3 li a{
+		font-size: 12px;
+	}
+}
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+	.nav_panel a{
+		display: none;
+	}
+	.nav_panel i{
+		color: white;
+		font-size: 30px;
+	}
+	.main_ph{
+	/*	border: 1px solid;*/
+		width: 100vw;
+		height: 550px;
+		background: url(main_photo.jpeg);
+		background-size: 100% 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0;
+	}
+	.nav_panel2 li a{
+		color: white;
+		text-decoration: none;
+	}
+	.nav_panel2 li a:hover{
+		color: skyblue;
+	}
+	.main_text{
+/*		border: 1px solid red;*/
+		width: 100%;
+		height: 200px;
+		color: white;
+		padding: 0px 0px;
+		font-family: 'Dosis', sans-serif;
+		
+	}
+	.main_text h1{
+		font-size: 50px;
+		color: floralwhite;
+		margin: 10px 100px;
+	}
+	.main_text p{
+		font-size: 20px;
+		margin: 0px 298px;
+		color: black;
+	}				
+	.main_3{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 550px;
+		position: relative;
+		top: 100px;
+	}
+	.box1{
+	/*	border: 1px solid white;*/
+		width: 94%;
+		height: 450px;
+		position: absolute;
+		top: 10px;
+		left: 25px;
+		background: url(main_3_ph1.jpeg);
+		background-size: 100% 100%;
+	}
+	.box2{
+	/*	border: 1px solid blueviolet;*/
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		background: url(main_3_ph2.jpeg);
+		background-size: 100% 100%;
+		left: 25px;
+		bottom: 1px;
+		border-radius: 50%;
+	}
+	.box3{
+	/*	border: 1px solid red;*/
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		bottom: 10px;
+		right: 25px;
+		background: url(main_3_ph3.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+	.main_4{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height:180vh;
+		position: relative;
+		top: 140px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.cube1{
+	/*	border: 1px solid white;*/
+		width: 90%;
+		height: 93vh;
+		position: absolute;
+		left: 40px;
+		background: url(mani_4.jpeg);
+		background-size: 100% 100%;
+	}
+	.cube2{
+/*		border: 1px solid white;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 85px;
+		left: 40px;
+		color: white;
+	}
+	.cube3{
+/*		border: 1px solid red;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 85px;
+		left: 280px;
+		color: white;
+	}
+	.cube4{
+/*		border: 1px solid white;*/
+		width: 27%;
+		height: 450px;
+		position: absolute;
+		bottom: 85px;
+		right: 40px;
+		color: white;
+	}
+	.main_5_text{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 250px;
+		position: relative;
+		top: 150px;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		padding: 0 50px;
+	}
+	.cube1_1{
+	/*	border: 1px solid white;*/
+		width: 90%;
+		height: 93vh;
+		position: absolute;
+		left: 40px;
+		background: url(salon1.jpeg);
+		background-size: 100% 100%;
+	}
+	.end_div{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 400px;
+		position: relative;
+		top: 170px;
+		background: rgb(25, 25, 25);
+	}
+	.end_icon{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: gray;
+	}
+	.end_icon i{
+		color: white;
+		margin: 0 20px;
+		font-size: 20px;
+	}
+	.end_icon i:hover{
+		color: skyblue;
+	}
+	.nav_bar2{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 330px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.nav_panel3{
+/*		border: 1px solid;*/
+		width: 150px;
+		height: 200px;
+		list-style: none;
+	}
+	.nav_bar2 p{
+		font-size: 12px;
+	}
+}
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+@media (min-width:320px) and (max-width:767px){
+	.nav_panel a{
+		display: none;
+	}
+	.logo_area_text{
+	/*	border: 1px solid red;*/
+		width: 520px;
+		color: white;
+		display: flex;
+		align-items: center;
+		font-size: 12px;
+		padding: 0 15px;
+	}
+	.logo img{
+		width: 60px;
+		height: 60px;
+		margin: 0 10px;
+	}
+	.op_menu{
+		border: 1px solid;
+		width: 40%;
+		height: 60%;
+		position: fixed;
+		right: -40%;
+		top:0;
+		background: rgba(0,0,0,0.4);
+		display: flex;
+		flex-direction: column;
+		padding: 50px 0!important;
+		pointer-events: none;
+	}
+	.manu2 i{
+		color: white;
+	}
+	.main_ph{
+	/*	border: 1px solid;*/
+		width: 100vw;
+		height: 550px;
+		background: url(main_photo.jpeg);
+		background-size: 100% 100%;
+		padding: 0 90px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.main_nav_panel{
+		display: none;
+	}
+	.main_text{
+	/*	border: 1px solid red;*/
+		width: 100%;
+		height: 200px;
+		color: white;
+		padding: 10px 0px;
+		font-family: 'Dosis', sans-serif;
+	}
+	.main_text h1{
+		font-size: 30px;
+		color: floralwhite;
+	}
+	.main_text p{
+		font-size: 25px;
+		margin: 20px 50px;
+		color:black;
+	}
+	.tup2{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.tup2 div{
+	/*	border: 1px solid white;*/
+		width: 250px;
+		height: 200px;
+		display: flex;
+		align-items:flex-start;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0;
+	}
+	.main_3{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 850px;
+		position: relative;
+		top: 515px;
+	}
+	.box1{
+	/*	border: 1px solid white;*/
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		top: 10px;
+		left: 0px;
+		background: url(main_3_ph1.jpeg);
+		background-size: 100% 100%;
+	}
+	.box2{
+	/*	border: 1px solid blueviolet;*/
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		background: url(main_3_ph2.jpeg);
+		background-size: 100% 100%;
+		left: 0;
+		top: 310px;
+	}
+	.box3{
+	/*	border: 1px solid red;*/
+		width: 100%;
+		height: 240px;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background: url(main_3_ph3.jpeg);
+		background-size: 100% 100%;
+	}
+	.main_4_text{
+	/*	border: 1px solid white;*/
+		width: 100%;
+		height: 190px;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		padding: 0 25px;
+		position: relative;
+		top: 520px;
+	}
+	.main_4{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 225vh;
+		position: relative;
+		top: 750px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.cube1{
+	/*	border: 1px solid white;*/
+		width: 100%;
+		height: 200px;
+		position: absolute;
+		left: 	0px;
+		background: url(mani_4.jpeg);
+		background-size: 100% 100%;
+	}
+	.cube2{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 450px;
+		position: absolute;
+		bottom: 85px;
+		left: 0px;
+		color: white;
+		top: 200px;
+	}
+	.cube2 p{
+		margin: 5px 10px;
+	}
+	.cube3{
+/*		border: 1px solid red;*/
+		width: 100%;
+		height: 450px;
+		position: absolute;
+		top: 630px;
+		left: 0px;
+		color: white;
+	}
+	.cube3 p{
+		margin: 5px 10px;
+	}
+	.cube4{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 450px;
+		position: absolute;
+		bottom: 85px;
+		left: 0;
+		color: white;
+		bottom: 0px;
+	}
+	.cube4 p{
+		margin: 5px 10px;
+	}
+	.main_5_text{
+/*		border: 1px solid white;*/
+		width: 100%;
+		height: 450px;
+		position: relative;
+		top: 800px;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		padding: 0px 10px;
+	}
+	.cube1_1{
+	/*	border: 1px solid white;*/
+		width: 100%;
+		height: 200px;
+		position: absolute;
+		left: 	0px;
+		background: url(salon1.jpeg);
+		background-size: 100% 100%;
+	}
+	.end_div{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 1270px;
+		position: relative;
+		top: 700px;
+		background: rgb(25, 25, 25);
+	}
+	.end_icon i{
+		color: white;
+		margin: 0 15px;
+		font-size: 20px;
+	}
+	.nav_bar2{
+/*		border: 1px solid;*/
+		width: 100%;
+		height: 1200px;
+		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.nav_panel3{
+	/*	border: 1px solid;*/
+		width: 250px;
+		height: 200px;
+		list-style: none;
+	}
+}

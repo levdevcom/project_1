@@ -1,0 +1,367 @@
+body{
+	background: black;
+}
+.nav_bar{
+/*	border: 1px solid wheat;*/
+	height: fit-content;
+}
+.logo_area{
+/*	border: 1px solid white;*/
+	height: 120px;
+	padding: 0;
+	display: flex;
+}
+.logo{
+/*	border: 1px solid white;*/
+	width: 200px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo img{
+	width: 70px;
+	height: 70px;
+}
+.logo_area_text{
+/*	border: 1px solid red;*/
+	width: 520px;
+	color: white;
+	display: flex;
+	align-items: center;
+	font-size: 21px;
+}
+.second{
+/*	border: 1px solid white;*/
+	height: 120px;
+	padding: 0;
+}
+.nav_panel{
+/*	border: 1px solid white;*/
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 18px;
+	list-style: none;
+}
+.nav_panel li a{
+	color: white;
+	text-decoration: none;
+}
+.nav_panel li a:hover{
+	color: skyblue;
+}
+.manu2{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+}
+.manu2 ul {
+/*		border: 1px solid;*/
+	padding: 0;
+	list-style-type: none;
+}
+.op_menu{
+	border: 1px solid;
+	width: 30%;
+	height: 60%;
+	position: fixed;
+	right: -30%;
+	top:0;
+	background: rgba(0,0,0,0.4);
+	display: flex;
+	flex-direction: column;
+	padding: 50px 0!important;
+	pointer-events: none;
+}
+.op_menu li{
+	color: white;
+	text-align: center;
+	margin: 15px 0;
+	font-size: 18px;
+}
+.manu2 ul li:hover .op_menu{
+	right: 0;
+	transition: 1.5s;
+	pointer-events: all;
+}
+.main_ph{
+/*	border: 1px solid;*/
+	width: 100vw;
+	height: 550px;
+	background: url(main_photo.jpeg);
+	background-size: 100% 100%;
+	padding: 25px 55px;
+}
+.main_nav_panel{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 35px;
+	background: rgba(0, 0, 0, 0.6);
+}
+.nav_panel2{
+/*	border: 1px solid;*/
+	width: 100%	;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+
+}
+.nav_panel2 li a{
+	color: white;
+	text-decoration: none;
+}
+.nav_panel2 li a:hover{
+	color: skyblue;
+}
+.main_text{
+/*	border: 1px solid red;*/
+	width: 100%;
+	height: 200px;
+	color: white;
+	padding: 10px 5px;
+	font-family: 'Dosis', sans-serif;
+}
+.main_text h1{
+	font-size: 50px;
+}
+.main_text p{
+	font-size: 17px;
+}
+.main_2{
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 640px;
+	font-family: 'Nunito', sans-serif;
+}
+.tup1{
+/*	border: 1px solid blue;*/
+	width: 100%;
+	height: 210px;
+	color: white;
+	padding: 10px 30px;
+}
+.tup1 h1{
+	margin: 30px 0;
+}
+.tup2{
+/*	border: 1px solid yellow;*/
+	width: 100%;
+	height: 213px;
+	color: white;
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+}
+.tup2 div{
+/*	border: 1px solid white;*/
+	width: 250px;
+	height: 200px;
+	display: flex;
+	align-items:flex-start;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 200px 0 0;
+}
+.tup3{
+/*	border: 1px solid red;*/
+	width: 75%;
+	height: 213px;
+	color: white;
+	padding: 10px 30px;
+}
+.tup3 div{
+	border: 1px solid;
+	width: 50px;
+}
+.main_3{
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 550px;
+	position: relative;
+}
+.box1{
+/*	border: 1px solid white;*/
+	width: 55%;
+	height: 500px;
+	position: absolute;
+	left: 25px;
+	background: url(main_3_ph1.jpeg);
+	background-size: 100% 100%;
+}
+.box2{
+/*	border: 1px solid blueviolet;*/
+	width: 550px;
+	height: 250px;
+	position: absolute;
+	right: 25px;
+	background: url(main_3_ph2.jpeg);
+	background-size: 100% 100%;
+}
+.box3{
+/*	border: 1px solid red;*/
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	bottom: 10px;
+	right: 170px;
+	background: url(main_3_ph3.jpeg);
+	background-size: 100% 100%;
+}
+.main_4_text{
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 190px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	padding: 0 25px;
+	position: relative;
+	top: 100px;
+}
+.main_4_text div{
+	border: 1px solid white;
+	width: 50px;
+}
+.main_4{
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 150vh;
+	position: relative;
+	top: 100px;
+	font-family: 'Nunito', sans-serif;
+}
+.cube1{
+/*	border: 1px solid white;*/
+	width: 90%;
+	height: 93vh;
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	background: url(mani_4.jpeg);
+	background-size: 100% 100%;
+}
+.cube2{
+/*	border: 1px solid white;*/
+	width: 27%;
+	height: 450px;
+	position: absolute;
+	bottom: 0px;
+	left: 70px;
+	color: white;
+}
+.cube2 img{
+	width: 100%;
+	height: 220px;
+	margin: 0px 0px 10px;
+}
+.cube3{
+/*	border: 1px solid red;*/
+	width: 27%;
+	height: 450px;
+	position: absolute;
+	bottom: 0px;
+	left: 540px;
+	color: white;
+}
+.cube3 img{
+	width: 100%;
+	height: 220px;
+	margin: 0px 0px 10px;
+}
+.cube4{
+/*	border: 1px solid white;*/
+	width: 27%;
+	height: 450px;
+	position: absolute;
+	bottom: 0px;
+	right: 75px;
+	color: white;
+}
+.cube4 img{
+	width: 100%;
+	height: 220px;
+	margin: 0px 0px 10px;
+}
+.main_5_text{
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 180px;
+	position: relative;
+	top: 100px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	padding: 0 70px;
+}
+.main_5_text div{
+	border: 1px solid white;
+	width: 50px;
+}
+.cube1_1{
+/*	border: 1px solid white;*/
+	width: 90%;
+	height: 93vh;
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	background: url(salon1.jpeg);
+	background-size: 100% 100%;
+}
+.end_div{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 400px;
+	position: relative;
+	top: 30px;
+	background: rgb(25, 25, 25);
+}
+.end_icon{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gray;
+}
+.end_icon i{
+	color: white;
+	margin: 0 20px;
+	font-size: 20px;
+}
+.end_icon i:hover{
+	color: skyblue;
+}
+.nav_bar2{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 330px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.nav_panel3{
+/*	border: 1px solid;*/
+	width: 250px;
+	height: 200px;
+	list-style: none;
+}
+.nav_panel3 li a{
+	color: darkgray;
+	text-decoration: none;
+	margin: 10px 0;
+}
+.nav_panel3 li a:hover{
+	color: skyblue;
+}
+.nav_bar2 p{
+	color: white;
+}
+
